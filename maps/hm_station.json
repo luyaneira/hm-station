@@ -858,11 +858,21 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"Information"
+                        }, 
+                        {
+                         "name":"jitsiWidth",
+                         "type":"int",
+                         "value":10
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"..\/public\/customStationSign\/web_station_sign.html"
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":486.666666666666,
-                 "x":1674.66666666667,
+                 "width":528.666666666666,
+                 "x":1650.66666666667,
                  "y":1678.66666666667
                 }, 
                 {
@@ -1075,8 +1085,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":14,
- "nextobjectid":5,
+ "nextlayerid":15,
+ "nextobjectid":7,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1102,7 +1112,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"\/src\/hm_station.js"
+         "value":"..\/src\/hm_station.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
