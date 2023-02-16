@@ -1,6 +1,7 @@
 //import content json interface (to avoid ts errors)
 import {Root} from "./interface-declaration";
 
+(async() => { 
 //load json
 var content: Root = await fetch("./station_sign_files/content.json").then((response) => { 
     return response.json().then((data) => {
@@ -105,4 +106,5 @@ if(content.tafel.misc.unterschrift != ""){
     document.getElementById("additionalTextContainer")?.appendChild(additionalText);
 }
 
+;})().catch(e => console.error(e));
 export {};
