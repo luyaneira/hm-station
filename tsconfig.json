@@ -30,9 +30,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "env.d.ts",
-    "src/*.ts",
-    "public/**/**/*.ts",
     "src"
   ]
 }
