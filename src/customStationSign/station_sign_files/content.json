@@ -1,59 +1,71 @@
 {
     "tafel": {
         "misc": {
-            "header": "Zeitplan Zukunftswochen",
+            "header": "Zeitplan: Level Up Your Future",
             "gelbeLeiste":{
                 "col1":"Zeit",
-                "col2":"Nach",
-                "col3":"Über",
-                "col4":"Gleis"
+                "col2":"Ziel",
+                "col3":"Plattform"
             },
             "unterschrift":"",
-            "links": [
-                {"link": {
-                    "to" : "https://bahn360.deutschebahn.com/ ",
-                    "title": "Bahn 360"
-                }}
-            ]
+            "links": []
         },
         "content": [
             {"eintrag": {
                 "col1":{
-                    "zeit":"8:00",
-                    "zugnummer":"ICE 500"
+                    "zeit":"14:00 - 18:00",
+                    "zugnummer":"Mo - Mi"
                 },
-                "col2": "TestBHF",
-                "col3": {
-                    "whiteText":"Test,tost,tast",
-                    "yellowText":"ca. 9999 Minuten später"
-                },
-                "col4": "0"
+                "col2": "Tägliches Beratungsangebot\nIm Raum \"Dein Einstieg bei der DB\"",
+                "col3":{
+                    "to":"https://coremeet.workadventu.re/c1ncu2-beratungscounter",
+                    "title":"Beratungscounter"
+                }
             }},
             {"eintrag": {
                 "col1":{
-                    "zeit":"9:00",
-                    "zugnummer":"ICE 510"
+                    "zeit":"10:00 - 14:00",
+                    "zugnummer":"Do - Fr"
                 },
-                "col2": "TestBHF2",
-                "col3": {
-                    "whiteText":"Test,tost,tast2222",
-                    "yellowText":"ca. 99929 Minuten später"
-                },
-                "col4": "1"
+                "col2": "Tägliches Beratungsangebot\nIm Raum \"Dein Einstieg bei der DB\"",
+                "col3":{
+                    "to":"https://coremeet.workadventu.re/c1ncu2-beratungscounter",
+                    "title":"Beratungscounter"
+                }
             }},
             {"eintrag": {
                 "col1":{
-                    "zeit":"9:00",
-                    "zugnummer":"ICE 510"
+                    "zeit":"18:00 - 19:00",
+                    "zugnummer":"05.10.2023"
                 },
-                "col2": "TestBHF2",
-                "col3": {
-                    "whiteText":"Test,tost,tast2222",
-                    "yellowText":"ca. 99929 Minuten später"
+                "col2": "Infoabend für Eltern und Lehrkräfte",
+                "col3":{
+                    "to":"https://coremeet.workadventu.re/c1ncu2-networking-lounge",
+                    "title":"Networking Lounge"
+                }
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"16:00 - 17:00",
+                    "zugnummer":"11.10.2023"
                 },
-                "col4": "1"
+                "col2": "Frag die Azubis - Ein Blick hinter die Kulissen bei der DB!",
+                "col3":{
+                    "to":"https://coremeet.workadventu.re/c1ncu2-networking-lounge",
+                    "title":"Networking Lounge"
+                }
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"17:30 - 19:00",
+                    "zugnummer":"11.10.2023"
+                },
+                "col2": "Frag die Dualis - Ein Blick hinter die Kulissen bei der DB!",
+                "col3":{
+                    "to":"https://coremeet.workadventu.re/c1ncu2-networking-lounge",
+                    "title":"Networking Lounge"
+                }
             }}
-
         ]
     }
 }
